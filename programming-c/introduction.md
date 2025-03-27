@@ -50,3 +50,17 @@
     4. No built-in exception handling in C: You’ll have to implement your own error-checking logic.
 
     5. Standard libraries: Java has extensive built-in libraries, whereas C has a smaller standard library but allows for closer-to-hardware operations.
+
+## Variable types in C
+
+    1. Integers - whole numbers which can be either positive or negative. Defined using char, int, short, long or long long.
+
+    2. Unsigned integers - whole numbers which can only be positive. Defined using unsigned char, unsigned int, unsigned short, unsigned long or unsigned long long.
+
+    3. Floating point numbers - real numbers (numbers with fractions). Defined using float and double.
+
+## Things I noted in C
+    1. C also likes you to put a semicolon (;) after every line of code.
+    2. C is also just really funny. No real way to store a String than as an arraya of characters therefore, 
+    ```char str[] = "Hello World";```
+    3. Also uses the main method also you have to always return a 0 in the method becasue that showws C that the main function has been compiled and run successfully.
