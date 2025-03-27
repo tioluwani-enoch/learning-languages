@@ -38,3 +38,15 @@
         Although Java doesn’t have explicit pointers, it uses references under the hood, which is somewhat similar to C pointers.
 
         Learning C will help you understand memory management at a deeper level, which is abstracted away in Java.
+
+## Differences between Java and C
+
+    1. Memory Management: In C, you’ll deal with manual memory management using malloc() and free(). In Java, the Garbage Collector handles memory for you.
+
+    2. No OOP in C: C is procedural, not object-oriented, so no classes or objects.
+
+    3. Pointers: C heavily relies on pointers, while Java uses references but hides direct memory access.
+
+    4. No built-in exception handling in C: You’ll have to implement your own error-checking logic.
+
+    5. Standard libraries: Java has extensive built-in libraries, whereas C has a smaller standard library but allows for closer-to-hardware operations.
