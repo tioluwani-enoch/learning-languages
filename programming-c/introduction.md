@@ -62,5 +62,10 @@
 ## Things I noted in C
     1. C also likes you to put a semicolon (;) after every line of code.
     2. C is also just really funny. No real way to store a String than as an arraya of characters therefore, 
-    ```char str[] = "Hello World";```
+    ```char strName[] = "Hello World";```
     3. Also uses the main method also you have to always return a 0 in the method becasue that showws C that the main function has been compiled and run successfully.
+    4. You can also use a ```char* strName for this as well, but you might need to use malloc and free for memory allocation. Little explanation from ChatGPT:
+        Using char* strName; alone would point to an undefined location, causing undefined behavior. By allocating memory with malloc(), we ensure the pointer has a valid memory block to store the user's input.
+
+## New stuff I learned
+    1. I also learned how to compare strings by using ```strcmp``` as well as how to colect user input using ```scanf``` learned about functions and the likes.
