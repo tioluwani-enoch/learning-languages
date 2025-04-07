@@ -69,3 +69,9 @@
 
 ## New stuff I learned
     1. I also learned how to compare strings by using ```strcmp``` as well as how to colect user input using ```scanf``` learned about functions and the likes.
+    2. When building a HTTP server with C we follow this process.
+        a. SOCKET:
+        b. BIND:
+        c. LISTEN:
+        d. ACCEPT:
+        e. READ/WRITE:
