@@ -12,4 +12,6 @@ int main() {
     printf("The second value of this array is %d\n", foo[1]);
     printf("The third value of this array is %d\n", foo[2]);
     printf("The fourth value of this array is %d\n", foo[3]);
+
+    return 0;
 }
